@@ -1,0 +1,10 @@
+.Link{
+    font-size: 16px;
+    text-align: center;
+    color: rgb(172, 166, 166);
+    text-decoration: underline;
+}
+.Link:hover{
+    filter: brightness(30%);
+    cursor: pointer;
+}
