@@ -11,6 +11,31 @@
     }
     .content-detail{
         padding: 16px;
+        .title-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           .edit-wrapper{
+            display: flex;
+            align-items: center;
+            .edit{
+                font-weight: bold;
+                font-size: 22px;
+                color: rgb(74, 116, 207);
+                cursor: pointer;
+                margin: 0px;
+                margin-right: 14px;
+            }
+            .delete{
+                font-weight: bold;
+                margin: 8px;
+                margin-left: 14px;
+                font-size: 22px;
+                color: red;
+                cursor: pointer;
+            }
+           }
+        }
         .title{
             margin: 0px;
             font-size: 20px;
@@ -25,6 +50,9 @@
         }
         .body{
             margin: 0px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
             margin-top: 18px;
             font-size: 16px;
             color: #353535;
